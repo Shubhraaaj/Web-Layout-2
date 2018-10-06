@@ -1,0 +1,203 @@
+::placeholder {
+    color: white;
+    opacity: 1;
+}
+input[type=text], select {
+    width: 100%;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    padding-left: 20px;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #7397A8;
+    border-radius: 8px;
+    color: white;
+    box-sizing: border-box;
+    background-color: #7397A8;
+}
+
+.button_1{
+    width: 100%;
+    background-color: #1E313D;
+    color: white;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    padding: 14px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit] {
+    width: 100%;
+    background-color: #1E313D;
+    color: white;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    padding: 14px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #111111;
+}
+
+body{
+    background-color: #3B535F;
+}
+hr{
+    margin-top: 16px;
+    height: 1px;
+    color: #243B47;
+    border: 0;
+    background-color: #243B47;
+    margin-bottom: 24px;
+}
+.text_small{
+    color:white;
+    font-size:20px;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+}
+.text_max{
+    color:white;
+    font-size:30px;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+}
+.smallhr{
+    margin-top: 16px;
+    height: 1px;
+    color: #243B47;
+    border: 0;
+    background-color: #243B47;
+    margin-bottom: 24px;
+}
+.enlarge_1hr{
+    margin-top: 16px;
+    height: 2px;
+    color: #243B47;
+    border: 0;
+    background-color: #243B47;
+    margin-bottom: 24px;
+}
+.text_read{
+    color:#6E8E9F;
+    font-size:13px;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+/* Style the side navigation */
+.sidenav {
+    height: 100%;
+    width: 300px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #0083C5;
+    overflow-x: hidden;
+}
+
+
+/* Side navigation links */
+.sidenav a {
+    text-decoration: none;
+    font-size: 14px;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    color: #FFFFFF;
+    display: block;
+}
+
+/* Change color on hover */
+.sidenav a:hover {
+    background-color: #1E313D;
+    color: black;
+}
+
+/* Style the content */
+.content {
+    margin-left: 200px;
+    padding-left: 20px;
+}
+
+.sidenav div.nav_bar_button:hover {
+    background-color: #000000;
+}
+
+.main {
+    margin-left: 160px;
+    font-size: 28px;
+    padding: 0px 10px;
+}
+
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+}
+
+p.heading
+{
+    color: #7E99AA;
+    float: right;
+    padding-top: 16px;
+    padding-right: 72px;
+}
+div.head_div{
+    background-color: white;
+    display: block;
+    padding-top: 4px;
+    padding-left: 32px;
+    padding-right: 32px;
+    padding-bottom: 4px;
+}
+img.twitter{
+    width: 48px;
+    height: 48px;
+    padding-left: 124px;
+}
+div.forms {
+    width: 80%;
+    padding: 20px;
+}
+div.right_pane{
+    width: 80%;
+}
+
+div.nav_bar_button {
+    text-align: left;
+}
+
+div.nav_bar_button a {
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 38%;
+}
+
+div.nav_bar_button a:hover {
+    background-color: #1E313D;
+    color: white;
+}
+
+p.head_1{
+    color: white;
+    font-size: 20px;
+}
+
+p.head_2{
+    color: white;
+    font-size: 20px;   
+}
+
+div.form_head{
+    width: 40%;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
